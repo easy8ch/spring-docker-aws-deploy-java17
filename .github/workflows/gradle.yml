@@ -1,5 +1,6 @@
 name: Deploy to Amazon EC2
 
+# 수동 실행
 on: workflow_dispatch
 
 # TODO 각자 상황에 맞게 수정
