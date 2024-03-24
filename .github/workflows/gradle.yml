@@ -5,9 +5,9 @@ on: workflow_dispatch
 # TODO 각자 상황에 맞게 수정
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: easy-code-deploy-bucket
-  CODE_DEPLOY_APPLICATION_NAME: tricount-api-test
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: tricount_deploy_group
+  S3_BUCKET_NAME: goorm-5th-tricount-easy
+  CODE_DEPLOY_APPLICATION_NAME: goorm-5th-tricount-api-test
+  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: deploy_group_test
 
 permissions:
   contents: read
