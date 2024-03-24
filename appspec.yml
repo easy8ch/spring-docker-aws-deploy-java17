@@ -1,9 +1,10 @@
 version: 0.0
 os: linux
 
+# TODO 각자 경로에 맞게 수정해줘야 함
 files:
   - source:  /
-    destination: /home/ec2-user/spring-docker-aws-deploy
+    destination: /home/ec2-user/spring-docker-aws-deploy-java17
     overwrite: yes
 file_exists_behavior: OVERWRITE
 
